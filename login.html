@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Login </title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <style>
+    body {
+      font-size: 0.7em;
+      color: whitesmoke;
+      font-family: 'Courier New', Courier, monospace;
+      background: linear-gradient(to right, #fc00ff, #00dbde);
+    }
+
+    nav {
+      display: flex;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a style='font-size:1.4em; margin-left: auto;' href='index3.html'>Register</a>
+    </nav>
+  </header>
+  <main>
+    <h1>
+      Welcome! Please Login
+    </h1>
+
+    <form action='POST'>
+
+      <label for='email'>Enter your email: </label><br>
+      <input type='email'><br>
+      <label for='pwd'>Enter your password:</label><br>
+      <input type='password' minlength="6" maxlength="7" required name='pwd'><br>
+
+      <a href='success.html'>
+        <input type='button' value='Login'>
+      </a>
+
+    </form>
+  </main>
+</body>
+
+</html>
